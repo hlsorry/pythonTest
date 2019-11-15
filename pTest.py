@@ -4,7 +4,7 @@
 import requests
 from bs4 import BeautifulSoup
 # 设置自己的名字
-test_url = 'http://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&tn=baidu&wd='海龙'
+test_url = 'http://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&tn=baidu&wd=海龙'
  
 def download_page(url):
     data = requests.get(url).content
